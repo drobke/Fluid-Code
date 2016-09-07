@@ -1,0 +1,47 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 2;
+  nav {
+    ul {
+      margin: 0;
+      padding: 10px 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      li {
+        list-style: none;
+        display: inline-block;
+        padding: 5px;
+        color: $lightText;
+        overflow: hidden;
+        a {
+          font-weight: 600;
+          letter-spacing: 2px;
+          color: rgba($lightText, 0.7);
+          transition: all 0.4s ease;
+          &:hover {
+            text-decoration: none;
+            color: rgba($lightText, 1);
+          }
+          &:before {
+            content: "";
+            position: relative;
+            left: -130%;
+            display: block;
+            width: calc(100% + 10px);
+            height: 1px;
+            background-color: $brand-primary;
+            transition: all 0.4s ease;
+            top: 22px;
+          }
+          &:hover:before {
+            left: -10px;
+          }
+        }
+      }
+    }
+  }
+}
