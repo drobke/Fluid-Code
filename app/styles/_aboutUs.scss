@@ -24,7 +24,8 @@
   .text {
     padding: 0 20%;
     width: 100%;
-    z-index: 20;
+    z-index: 30;
+    position: relative;
     h3 {
       margin: 0;
       text-transform: lowercase;

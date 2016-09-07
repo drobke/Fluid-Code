@@ -5,6 +5,7 @@ header {
   left: 0;
   z-index: 200;
   nav {
+    transition: all 0.4s ease;
     ul {
       margin: 0;
       padding: 10px 30px;
@@ -47,4 +48,7 @@ header {
       }
     }
   }
+}
+.header-fixed {
+  background-image: linear-gradient(to left, rgba(black, 0.6) 14%, rgba($lightText, 0) 33%);
 }
