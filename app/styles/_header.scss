@@ -20,11 +20,14 @@ header {
         a {
           font-weight: 600;
           letter-spacing: 2px;
-          color: rgba($lightText, 0.7);
+          color: rgba($lightText, 0.85);
           transition: all 0.4s ease;
           &:hover {
             text-decoration: none;
             color: rgba($lightText, 1);
+          }
+          &:visited {
+            color: rgba($lightText, 0.7);
           }
           &:before {
             content: "";

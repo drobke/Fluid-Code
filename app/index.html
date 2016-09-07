@@ -42,9 +42,10 @@
 </header>
 
 <section id="welcome">
+    <div id="particles-js"></div>
     <div class="overlay">
         <div class="logo">
-            <h1>fluid <span>CODE</span></h1>
+             <h1>fluid <span>CODE</span></h1>
             <h2>development</h2>
         </div>
         <div class="rectangle"></div>
@@ -54,8 +55,10 @@
 
 
 <section id="aboutUs">
+    <div class="overlay"></div>
     <div class="text">
-        <h3>WE <span>TRANSFORM</span> ideas INTO reality TO <span>CREATE</span> MEMORABLE EXPERIENCES ON THE WEB... AND
+        <h3>WE <span>TRANSFORM</span> ideas INTO reality TO <span>CREATE</span> MEMORABLE EXPERIENCES ON THE WEB...
+            AND
             BEYOND. </h3>
     </div>
 </section>
@@ -68,19 +71,34 @@
         <div class="rectangle"></div>
     </div>
     <div class="skills">
-        <div>
-            <h4>website design</h4>
-            <p>tour website is the centerpiece of your marketing efforts, and should speak to tour ideal customer and
-                generate new leads.</p>
-        </div>
-        <div>
-            <h4>mobile web design</h4>
-            <p>more than 70% web browsing is occuring on mobile devices, so be where your customers are: take your
-                business mobile and responsive.</p>
-        </div>
-        <div>
-            <h4>website development</h4>
-            <p>our development team ensures your websites is lightweight, easily expandable, search engine friendly and of cource W3C compilant. </p>
+        <div class="wrapper">
+            <div class="skill">
+                <div class="text">
+                    <h4>website design</h4>
+                    <p>tour website is the centerpiece of your marketing efforts, and should speak to tour ideal
+                        customer
+                        and generate new leads.
+                    </p>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="text">
+                    <h4>mobile web design</h4>
+                    <p>more than 70% web browsing is occuring on mobile devices, so be where your customers are: take
+                        your
+                        business mobile and responsive.
+                    </p>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="text">
+                    <h4>website development</h4>
+                    <p>our development team ensures your websites is lightweight, easily expandable, search engine
+                        friendly
+                        and of cource W3C compilant.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -106,6 +124,7 @@
 <!-- build:js scripts/vendor.js -->
 <!-- bower:js -->
 <script src="/bower_components/jquery/dist/jquery.js"></script>
+
 <!-- endbower -->
 <!-- endbuild -->
 
@@ -122,6 +141,8 @@
 <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
 <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
 <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+<script src="/bower_components/particles.js/particles.js"></script>
+
 <!-- endbuild -->
 
 <!-- build:js scripts/main.js -->

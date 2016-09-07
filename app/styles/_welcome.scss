@@ -91,5 +91,8 @@
   &:hover {
     opacity: 0.9;
   }
-
+}
+#particles-js {
+  position: relative;
+  z-index: 8;
 }

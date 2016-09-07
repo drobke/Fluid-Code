@@ -1,8 +1,8 @@
 #whatWeDo {
-  height: 700px;
   position: relative;
   width: 100%;
   left: 0;
+  padding: 5% 0;
   z-index: 30;
   background-image: url("../images/background1.jpg");
   background-attachment: fixed;
@@ -15,7 +15,6 @@
   overflow: hidden;
   .overlay {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
     height: 100%;
     top: 0;
@@ -23,93 +22,122 @@
       position: relative;
       bottom: 0px;
       left: 0px;
-      background-color: rgba(125, 125, 125, 0.2);
+      background-color: rgba(255, 255, 255, 0.78);
       transform: rotate(47deg);
-      width: 100%;
-      height: 100%;
-      border: 1px solid rgba(255, 255, 255, 0.14);
+      width: 2000px;
+      height: 1000px;
+      border: 1px solid rgba(255, 255, 255, 0.9);
       z-index: 10;
     }
     :nth-child(2) {
       position: relative;
       bottom: 200%;
       left: -1px;
-      background-color: rgba(125, 125, 125, 0);
+      background-color: rgba(125, 125, 125, 0.2);
       transform: rotate(180deg);
       width: 35%;
       height: 250%;
-      border: 1px solid rgba(255, 255, 255, 0.24);
+      border: 1px solid rgba(255, 255, 255, 0.9);
       z-index: 10;
     }
     :nth-child(3) {
       position: absolute;
       bottom: -100px;
       right: -1px;
-      background-color: rgba(125, 125, 125, 0.1);
+      background-color: rgba(125, 125, 125, 0.4);
       transform: rotate(-8deg);
       width: 35%;
       height: 250%;
-      border: 1px solid rgba(255, 255, 255, 0.34);
+      border: 1px solid rgba(255, 255, 255, 0.9);
       z-index: 10;
     }
-
   }
   .skills {
     width: 100%;
-    height: 100%;
+    height: 90%;
     z-index: 30;
-    div:first-of-type {
-      width: 300px;
-      height: 300px;
-      border-radius: 50%;
-      background-color: rgba($lightText, 0.5);
-      border: 1px solid $lightText;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      padding: 40px;
-      color: $darkText;
+    position: relative;
+    .wrapper {
       position: relative;
-      top: 10%;
-      left: 10%;
+      height: 730px;
+      .skill:first-of-type {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        background-color: rgba($darkText, 0.45);
+        padding: 30px;
+        color: $lightText;
+        position: absolute;
+        top: 0;
+        left: 10%;
+        transition: all 0.4s ease;
+        &:hover {
+          background-color: rgba($darkText, 0.65);
+        }
+      }
+      .skill:nth-of-type(2) {
+        width: 390px;
+        height: 390px;
+        border-radius: 50%;
+        background-color: rgba($darkText, 0.8);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+        color: $lightText;
+        position: absolute;
+        bottom: 0;
+        transition: all 0.4s ease;
+        left: 12%;
+        &:hover {
+          background-color: rgba($darkText, 0.9);
+        }
+      }
+      .skill:nth-of-type(3) {
+        width: 340px;
+        height: 340px;
+        border-radius: 50%;
+        background-color: rgba($darkText, 0.6);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+        color: $lightText;
+        position: absolute;
+        bottom: 30%;
+        left: 32%;
+        transition: all 0.4s ease;
+        &:hover {
+          background-color: rgba($darkText, 0.8);
+        }
+      }
+      .skill:hover {
+        padding: 0;
+      }
+      .text {
+        border-radius: 50%;
+        border: 1px solid $lightText;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        transition: all 0.4s ease;
+        padding: 10px;
+      }
+      .skill:hover .text {
+        padding: 40px;
+        border: 1px solid $brand-primary;
+      }
     }
-    div:nth-of-type(2) {
-      width: 350px;
-      height: 350px;
-      border-radius: 50%;
-      background-color: rgba($lightText, 0.2);
-      border: 1px solid $lightText;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      padding: 40px;
-      color: $lightText;
-      position: relative;
-      top: 6%;
-      left: 10%;
-    }
-    div:nth-of-type(3) {
-      width: 300px;
-      height: 300px;
-      border-radius: 50%;
-      background-color: rgba($lightText, 0.5);
-      border: 1px solid $lightText;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      padding: 40px;
-      color: $darkText;
-      position: relative;
-      top: -68%;
-      left: 30%;
-    }
+
     h4 {
       color: $brand-primary;
       font-size: 20px;
     }
   }
- }
+}
 
