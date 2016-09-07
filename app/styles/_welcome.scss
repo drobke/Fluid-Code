@@ -1,3 +1,4 @@
+
 #welcome {
   height: 100vh;
   position: relative;
@@ -11,7 +12,7 @@
   background-size: cover;
   .overlay {
     position: absolute;
-    overflow: hidden;
+    overflow-x: hidden;
     top: 0;
     left: 0;
     width: 100%;
@@ -24,7 +25,7 @@
     .logo {
       padding: 20px;
       overflow: hidden;
-      z-index: 5;
+      z-index: 15;
       h1 {
         color: rgba($lightText, 0.8);
         font-size: 40px;
@@ -63,14 +64,15 @@
       }
     }
     .rectangle {
-      position: absolute;
-      bottom: -300px;
-      left: 600px;
+      position: fixed;
+      bottom: -500px;
+      left: 700px;
       background-color: rgba(125, 125, 125, 0.36);
       transform: rotate(144deg);
       width: 1000px;
       height: 2000px;
       border: 1px solid rgba(255, 255, 255, 0.44);
+      z-index: 10;
     }
   }
 
@@ -85,7 +87,9 @@
   font-size: 40px;
   transition: all 0.4s ease;
   opacity: 0.6;
+  z-index: 21;
   &:hover {
     opacity: 0.9;
   }
+
 }

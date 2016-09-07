@@ -1,0 +1,40 @@
+#aboutUs {
+  height: 500px;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  padding: 0 20%;
+  background-image: url("../images/background1.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .text {
+    z-index: 20;
+    h3 {
+      margin: 0;
+      text-transform: lowercase;
+      color: $lightText;
+      text-align: center;
+      font-size: 36px;
+      :first-child {
+        color: rgba($brand-primary, 0.8);
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 32px;
+      }
+      :nth-child(2) {
+        color: rgba($brand-primary, 0.75);
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 32px;
+      }
+    }
+  }
+}
+
