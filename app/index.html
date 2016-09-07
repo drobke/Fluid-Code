@@ -28,14 +28,30 @@
 <body>
 
 <header>
-    <nav>
+    <nav class="primary">
         <ul>
-            <li><a href="#welcome">about us</a></li>
+            <li><a href="#aboutUs">about us</a></li>
             <li><span>/</span></li>
             <li><a href="#whatWeDo">what we do?</a></li>
             <li><span>/</span></li>
             <li><a href="#whoWeAre">who we are?</a></li>
             <li><span>/</span></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+    <button type="button" id="mobileNav">
+        <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+    </button>
+
+    <nav class="mobile">
+        <button type="button" id="mobileNav2">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+
+        <ul>
+            <li><a href="#aboutUs">about us</a></li>
+            <li><a href="#whatWeDo">what we do?</a></li>
+            <li><a href="#whoWeAre">who we are?</a></li>
             <li><a href="#contact">contact</a></li>
         </ul>
     </nav>
@@ -50,7 +66,8 @@
         </div>
         <div class="rectangle"></div>
     </div>
-    <button><a id="moveDown" href="#aboutUs"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+    <button type="button"><a id="moveDown" href="#aboutUs"><span class="glyphicon glyphicon-chevron-down"
+                                                                 aria-hidden="true"></span></a>
     </button>
 </section>
 
