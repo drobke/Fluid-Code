@@ -28,20 +28,37 @@
 <body>
 
 <header>
-    <nav>
+    <nav class="primary">
         <ul>
-            <li><a href="#">about us</a></li>
+            <li><a href="#aboutUs">about us</a></li>
             <li><span>/</span></li>
-            <li><a href="#">what we do?</a></li>
+            <li><a href="#whatWeDo">what we do?</a></li>
             <li><span>/</span></li>
-            <li><a href="#">who we are?</a></li>
+            <li><a href="#whoWeAre">who we are?</a></li>
             <li><span>/</span></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+    <button type="button" id="mobileNav">
+        <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+    </button>
+
+    <nav class="mobile">
+        <button type="button" id="mobileNav2">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+
+        <ul>
+            <li><a href="#aboutUs">about us</a></li>
+            <li><a href="#whatWeDo">what we do?</a></li>
+            <li><a href="#whoWeAre">who we are?</a></li>
+            <li><a href="#contact">contact</a></li>
         </ul>
     </nav>
 </header>
 
 <section id="welcome">
+    <div id="particles-js"></div>
     <div class="overlay">
         <div class="logo">
             <h1>fluid <span>CODE</span></h1>
@@ -49,13 +66,17 @@
         </div>
         <div class="rectangle"></div>
     </div>
-    <button id="moveDown"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></button>
+    <button type="button"><a id="moveDown" href="#aboutUs"><span class="glyphicon glyphicon-chevron-down"
+                                                                 aria-hidden="true"></span></a>
+    </button>
 </section>
 
 
 <section id="aboutUs">
+    <div class="overlay"></div>
     <div class="text">
-        <h3>WE <span>TRANSFORM</span> ideas INTO reality TO <span>CREATE</span> MEMORABLE EXPERIENCES ON THE WEB... AND
+        <h3>WE <span>TRANSFORM</span> ideas INTO reality TO <span>CREATE</span> MEMORABLE EXPERIENCES ON THE WEB...
+            AND
             BEYOND. </h3>
     </div>
 </section>
@@ -68,23 +89,73 @@
         <div class="rectangle"></div>
     </div>
     <div class="skills">
-        <div>
-            <h4>website design</h4>
-            <p>tour website is the centerpiece of your marketing efforts, and should speak to tour ideal customer and
-                generate new leads.</p>
-        </div>
-        <div>
-            <h4>mobile web design</h4>
-            <p>more than 70% web browsing is occuring on mobile devices, so be where your customers are: take your
-                business mobile and responsive.</p>
-        </div>
-        <div>
-            <h4>website development</h4>
-            <p>our development team ensures your websites is lightweight, easily expandable, search engine friendly and of cource W3C compilant. </p>
+        <div class="wrapper">
+            <div class="skill">
+                <div class="text">
+                    <h4>website design</h4>
+                    <p>tour website is the centerpiece of your marketing efforts, and should speak to tour ideal
+                        customer
+                        and generate new leads.
+                    </p>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="text">
+                    <h4>mobile web design</h4>
+                    <p>more than 70% web browsing is occuring on mobile devices, so be where your customers are: take
+                        your
+                        business mobile and responsive.
+                    </p>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="text">
+                    <h4>website development</h4>
+                    <p>our development team ensures your websites is lightweight, easily expandable, search engine
+                        friendly
+                        and of cource W3C compilant.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
+<section id="whoWeAre">
+    <div class="dejan">
+        <article></article>
+        <aside>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </aside>
+    </div>
+    <div class="drobke">
+        <article></article>
+        <aside>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </aside>
+    </div>
+    <div class="mladja">
+        <article></article>
+        <aside>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </aside>
+    </div>
+</section>
 <footer class="footer">
     <h1>Contact Us</h1>
     <p>It's not about brand , it's about <b>STYLE<b></p>
@@ -101,7 +172,6 @@
             
         </section>
 </footer>
-
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
     (function (b, o, i, l, e, r) {
@@ -139,6 +209,8 @@
 <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
 <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
 <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+<script src="/bower_components/particles.js/particles.js"></script>
+
 <!-- endbuild -->
 
 <!-- build:js scripts/main.js -->
