@@ -1,58 +1,119 @@
-#whoWeAre{
-	z-index: 10;
-	overflow: hidden;
-	div{
-		position: relative;
-		article{
-			width: 50%;
-			height: 80vh;
-			background-size: cover;
-			background-repeat: no-repeat;
-			position: relative;
-		}
-		aside{
-			width: 50%;
-			height: 80vh;
-			display: block;
-			position: absolute;
-
-			background-image: url(../images/cut-first.png);
-			background-size: 60px 100%;
-			background-repeat: no-repeat;
-			background-position: top left;
-			right: 60px;
-			top: 0;
-			div{
-				width: 50%;
-				margin: 0 auto;
-			}
-		}
-	}
-	.dejan{
-		article{
-			background-image: url(../images/dejan.jpg);
-			left: 0;
-			width: calc(50% + 60px);
-		}
-		aside{
-			right: 0px;
-		}
-	}
-	.drobke{
-		article{
-			background-image: url(../images/drobke.jpg);
-			left: 50%;
-		}
-		aside{
-			left: 60px;
-			background-image: url(../images/cut-second.png);
-			background-position: top right;
-		}
-	}
-	.mladja{
-		article{
-			background-image: url(../images/mladja.jpg);
-			left: 0;
-		}
-	}
+#whoWeAre {
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+  z-index: 20;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  .team {
+    position: relative;
+    article {
+      width: 50%;
+      height: 500px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      overflow: hidden;
+    }
+    aside {
+      width: 50%;
+      height: 500px;
+      display: block;
+      position: absolute;
+      background-image: url(../images/cut-first.png);
+      background-size: 60px 100%;
+      background-repeat: no-repeat;
+      background-position: top left;
+      right: 60px;
+      top: 0;
+      div {
+        width: 100%;
+        height: 100%;
+        padding: 0 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h5 {
+          font-size: 24px;
+          letter-spacing: 3px;
+          font-weight: 900;
+          color: rgba($darkText, 0.8);
+        }
+      }
+    }
+  }
+  .dejan {
+    article {
+      background-image: url(../images/dejan.jpg);
+      left: 0;
+      width: calc(50% + 120px);
+      .overlay {
+        position: absolute;
+        width: 450px;
+        height: 1000px;
+        top: -80px;
+		left: -140px;
+        transform: rotate(-21deg);
+        border: 1px solid rgba(255, 255, 255, 0.44);
+        background-color: rgba(0, 0, 0, 0.4);
+        transition: all 0.3s ease;
+      }
+      &:hover .overlay {
+        left: 80%;
+		top: -300px;
+      }
+    }
+    aside {
+      right: -60px;
+    }
+  }
+  .drobke {
+    right: -60px;
+    article {
+      background-image: url(../images/drobke.jpg);
+      left: 50%;
+      .overlay {
+        position: absolute;
+        width: 450px;
+        height: 1000px;
+        top: -80px;
+		left: -140px;
+        transform: rotate(-21deg);
+        border: 1px solid rgba(255, 255, 255, 0.44);
+        background-color: rgba(0, 0, 0, 0.4);
+        transition: all 0.3s ease;
+      }
+      &:hover .overlay {
+        left: 80%;
+		top: -300px;
+      }
+    }
+    aside {
+      left: 60px;
+      background-image: url(../images/cut-second.png);
+      background-position: top right;
+    }
+  }
+  .mladja {
+    article {
+      background-image: url(../images/mladja.jpg);
+      left: 0;
+      .overlay {
+        position: absolute;
+        width: 450px;
+        height: 1000px;
+        top: -80px;
+		left: -140px;
+        transform: rotate(-21deg);
+        border: 1px solid rgba(255, 255, 255, 0.44);
+        background-color: rgba(0, 0, 0, 0.4);
+        transition: all 0.3s ease;
+      }
+      &:hover .overlay {
+        left: 80%;
+		top: -300px;
+      }
+    }
+  }
 }
