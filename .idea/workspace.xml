@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9edfaef7-f143-483e-bfea-03b44819cf50" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/logo-codepen.png" afterPath="$PROJECT_DIR$/app/images/logo-codepen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/logo-facebook.png" afterPath="$PROJECT_DIR$/app/images/logo-facebook.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/logo-github.png" afterPath="$PROJECT_DIR$/app/images/logo-github.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/logo-linkedin.png" afterPath="$PROJECT_DIR$/app/images/logo-linkedin.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_footer.scss" afterPath="$PROJECT_DIR$/app/styles/_footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_whoWeAre.scss" afterPath="$PROJECT_DIR$/app/styles/_whoWeAre.scss" />
     </list>
     <ignored path="fluidcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,17 +29,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="183" column="27" selection-start-line="183" selection-start-column="27" selection-end-line="183" selection-end-column="27" />
+            <state relative-caret-position="495">
+              <caret line="220" column="10" selection-start-line="220" selection-start-column="10" selection-end-line="220" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="535">
@@ -48,8 +53,12 @@
         <entry file="file://$PROJECT_DIR$/app/styles/_whoWeAre.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
+              <caret line="23" column="31" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <marker date="1473343355739" expanded="true" signature="1034:1106" ph="{...}" />
+                <marker date="1473343355739" expanded="true" signature="1048:1106" ph="{...}" />
+                <marker date="1473343355739" expanded="true" signature="3057:3058" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,8 +143,8 @@
         <option value="$PROJECT_DIR$/app/assets/particlesPlugin.js" />
         <option value="$PROJECT_DIR$/app/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/styles/_whoWeAre.scss" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/styles/_footer.scss" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -323,12 +332,12 @@
       <option name="presentableId" value="Default" />
       <updated>1473167281811</updated>
       <workItem from="1473167290862" duration="27459000" />
-      <workItem from="1473266081024" duration="29736000" />
+      <workItem from="1473266081024" duration="30398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57195000" />
+    <option name="totallyTimeSpent" value="57857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
@@ -606,8 +615,12 @@
     <entry file="file://$PROJECT_DIR$/app/styles/_whoWeAre.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
+          <caret line="23" column="31" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1473343355739" expanded="true" signature="1034:1106" ph="{...}" />
+            <marker date="1473343355739" expanded="true" signature="1048:1106" ph="{...}" />
+            <marker date="1473343355739" expanded="true" signature="3057:3058" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -627,18 +640,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="183" column="27" selection-start-line="183" selection-start-column="27" selection-end-line="183" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
           <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="220" column="10" selection-start-line="220" selection-start-column="10" selection-end-line="220" selection-end-column="10" />
           <folding />
         </state>
       </provider>
