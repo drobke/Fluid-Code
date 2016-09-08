@@ -68,6 +68,21 @@
     article {
       background-image: url(../images/drobke.jpg);
       left: 50%;
+      .overlay {
+        position: absolute;
+        width: 300px;
+        height: 1000px;
+        bottom: -200px;
+        left: -12%;
+        transform: rotate(-21deg);
+        border: 1px solid rgba(255, 255, 255, 0.44);
+        background-color: rgba(0, 0, 0, 0.4);
+        transition: all 0.3s ease;
+      }
+      &:hover .overlay {
+        left: auto;
+        right: -12%;
+      }
     }
     aside {
       left: 60px;
@@ -79,6 +94,21 @@
     article {
       background-image: url(../images/mladja.jpg);
       left: 0;
+      .overlay {
+        position: absolute;
+        width: 300px;
+        height: 1000px;
+        bottom: -200px;
+        left: -12%;
+        transform: rotate(-21deg);
+        border: 1px solid rgba(255, 255, 255, 0.44);
+        background-color: rgba(0, 0, 0, 0.4);
+        transition: all 0.3s ease;
+      }
+      &:hover .overlay {
+        left: auto;
+        right: -12%;
+      }
     }
   }
 }
