@@ -1,0 +1,58 @@
+#whoWeAre{
+	z-index: 10;
+	overflow: hidden;
+	div{
+		position: relative;
+		article{
+			width: 50%;
+			height: 80vh;
+			background-size: cover;
+			background-repeat: no-repeat;
+			position: relative;
+		}
+		aside{
+			width: 50%;
+			height: 80vh;
+			display: block;
+			position: absolute;
+
+			background-image: url(../images/cut-first.png);
+			background-size: 60px 100%;
+			background-repeat: no-repeat;
+			background-position: top left;
+			right: 60px;
+			top: 0;
+			div{
+				width: 50%;
+				margin: 0 auto;
+			}
+		}
+	}
+	.dejan{
+		article{
+			background-image: url(../images/dejan.jpg);
+			left: 0;
+			width: calc(50% + 60px);
+		}
+		aside{
+			right: 0px;
+		}
+	}
+	.drobke{
+		article{
+			background-image: url(../images/drobke.jpg);
+			left: 50%;
+		}
+		aside{
+			left: 60px;
+			background-image: url(../images/cut-second.png);
+			background-position: top right;
+		}
+	}
+	.mladja{
+		article{
+			background-image: url(../images/mladja.jpg);
+			left: 0;
+		}
+	}
+}
