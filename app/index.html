@@ -28,20 +28,37 @@
 <body>
 
 <header>
-    <nav>
+    <nav class="primary">
         <ul>
-            <li><a href="#">about us</a></li>
+            <li><a href="#aboutUs">about us</a></li>
             <li><span>/</span></li>
-            <li><a href="#">what we do?</a></li>
+            <li><a href="#whatWeDo">what we do?</a></li>
             <li><span>/</span></li>
-            <li><a href="#">who we are?</a></li>
+            <li><a href="#whoWeAre">who we are?</a></li>
             <li><span>/</span></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+    <button type="button" id="mobileNav">
+        <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+    </button>
+
+    <nav class="mobile">
+        <button type="button" id="mobileNav2">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+
+        <ul>
+            <li><a href="#aboutUs">about us</a></li>
+            <li><a href="#whatWeDo">what we do?</a></li>
+            <li><a href="#whoWeAre">who we are?</a></li>
+            <li><a href="#contact">contact</a></li>
         </ul>
     </nav>
 </header>
 
 <section id="welcome">
+    <div id="particles-js"></div>
     <div class="overlay">
         <div class="logo">
             <h1>fluid <span>CODE</span></h1>
@@ -49,13 +66,18 @@
         </div>
         <div class="rectangle"></div>
     </div>
-    <button id="moveDown"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></button>
+    <button type="button"><a id="moveDown" href="#aboutUs"><span class="glyphicon glyphicon-chevron-down"
+                                                                 aria-hidden="true"></span></a>
+    </button>
 </section>
 
 
 <section id="aboutUs">
+    <div class="overlay"></div>
     <div class="text">
-        <h3>WE <span>TRANSFORM</span>  ideas INTO reality TO <span>CREATE</span>  MEMORABLE EXPERIENCES ON THE WEB... AND BEYOND. </h3>
+        <h3>WE <span>TRANSFORM</span> ideas INTO reality TO <span>CREATE</span> MEMORABLE EXPERIENCES ON THE WEB...
+            AND
+            BEYOND. </h3>
     </div>
 </section>
 
@@ -65,6 +87,37 @@
         <div class="rectangle"></div>
         <div class="rectangle"></div>
         <div class="rectangle"></div>
+    </div>
+    <div class="skills">
+        <div class="wrapper">
+            <div class="skill">
+                <div class="text">
+                    <h4>website design</h4>
+                    <p>tour website is the centerpiece of your marketing efforts, and should speak to tour ideal
+                        customer
+                        and generate new leads.
+                    </p>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="text">
+                    <h4>mobile web design</h4>
+                    <p>more than 70% web browsing is occuring on mobile devices, so be where your customers are: take
+                        your
+                        business mobile and responsive.
+                    </p>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="text">
+                    <h4>website development</h4>
+                    <p>our development team ensures your websites is lightweight, easily expandable, search engine
+                        friendly
+                        and of cource W3C compilant.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -125,6 +178,7 @@
 <!-- build:js scripts/vendor.js -->
 <!-- bower:js -->
 <script src="/bower_components/jquery/dist/jquery.js"></script>
+
 <!-- endbower -->
 <!-- endbuild -->
 
@@ -141,6 +195,8 @@
 <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
 <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
 <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+<script src="/bower_components/particles.js/particles.js"></script>
+
 <!-- endbuild -->
 
 <!-- build:js scripts/main.js -->

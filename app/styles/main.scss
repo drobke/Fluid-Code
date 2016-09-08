@@ -4,19 +4,19 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-
 @import "colors";
 @import "header";
 @import "welcome";
 @import "aboutUs";
 @import "whatWeDo";
 @import "whoWeAre";
-
+@import "queries";
 
 body {
   font-family: 'Quicksand', sans-serif;
 }
-* a:hover, * a:visited, * a:focus, * button:visited, * button:focus, * button:hover  {
+
+* a:hover, * a:visited, * a:focus, * button:visited, * button:focus, * button:hover {
   text-decoration: none;
   outline: none;
 }
