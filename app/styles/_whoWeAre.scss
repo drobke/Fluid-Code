@@ -46,6 +46,7 @@
   .dejan {
     article {
       background-image: url(../images/dejan.jpg);
+      background-position: center center;
       left: 0;
       width: calc(50% + 120px);
       .overlay {
@@ -72,6 +73,7 @@
     right: -60px;
     article {
       background-image: url(../images/drobac.jpg);
+      background-position: top right;
       left: 50%;
       .overlay {
         position: absolute;
@@ -98,6 +100,7 @@
   .mladja {
     article {
       background-image: url(../images/mladja.jpg);
+      background-position: top right;
       left: 0;
       .overlay {
         position: absolute;
@@ -116,4 +119,24 @@
       }
     }
   }
+  .teamSocial{
+   		padding-top: 30px;
+		ul{	    
+			list-style: none;
+	    	padding: 0;
+	    	margin: 0px
+		}
+			li{
+				list-style: none;
+				padding: 0;
+				margin: 10px;
+				display: inline;
+			}
+			img{
+				width: 30px;
+				&:hover{
+					transform: scale(1.5);
+				}
+			}
+	}
 }
