@@ -36,13 +36,14 @@
 		article{
 			background-image: url(../images/dejan.jpg);
 			left: 0;
-			width: calc(50% + 60px);
+			width: calc(50% + 120px);
 		}
 		aside{
-			right: 0px;
+			right: -60px;
 		}
 	}
 	.drobke{
+		right: -60px;
 		article{
 			background-image: url(../images/drobke.jpg);
 			left: 50%;
