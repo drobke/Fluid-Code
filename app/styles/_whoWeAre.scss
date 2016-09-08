@@ -42,21 +42,20 @@
       background-image: url(../images/dejan.jpg);
       left: 0;
       width: calc(50% + 120px);
-      transition: all 0.7s ease;
       .overlay {
         position: absolute;
-        width: 300px;
+        width: 450px;
         height: 1000px;
-        bottom: -200px;
-        left: -12%;
+        top: -80px;
+		left: -140px;
         transform: rotate(-21deg);
         border: 1px solid rgba(255, 255, 255, 0.44);
         background-color: rgba(0, 0, 0, 0.4);
         transition: all 0.3s ease;
       }
       &:hover .overlay {
-        left: auto;
-        right: -12%;
+        left: 80%;
+		top: -300px;
       }
     }
     aside {
@@ -70,18 +69,18 @@
       left: 50%;
       .overlay {
         position: absolute;
-        width: 300px;
+        width: 450px;
         height: 1000px;
-        bottom: -200px;
-        left: -12%;
+        top: -80px;
+		left: -140px;
         transform: rotate(-21deg);
         border: 1px solid rgba(255, 255, 255, 0.44);
         background-color: rgba(0, 0, 0, 0.4);
         transition: all 0.3s ease;
       }
       &:hover .overlay {
-        left: auto;
-        right: -12%;
+        left: 80%;
+		top: -300px;
       }
     }
     aside {
@@ -96,18 +95,18 @@
       left: 0;
       .overlay {
         position: absolute;
-        width: 300px;
+        width: 450px;
         height: 1000px;
-        bottom: -200px;
-        left: -12%;
+        top: -80px;
+		left: -140px;
         transform: rotate(-21deg);
         border: 1px solid rgba(255, 255, 255, 0.44);
         background-color: rgba(0, 0, 0, 0.4);
         transition: all 0.3s ease;
       }
       &:hover .overlay {
-        left: auto;
-        right: -12%;
+        left: 80%;
+		top: -300px;
       }
     }
   }
