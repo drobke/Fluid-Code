@@ -75,6 +75,7 @@ header {
     }
   }
   nav.mobile {
+    position: relative;
     display: none;
     ul {
       height: 100vh;
@@ -119,9 +120,20 @@ header {
       }
 
     }
+    .overlay {
+      position: absolute;
+      background-color: rgba($brand-primary, 0.7);
+      width: 300px;
+      border: 1px solid rgba(255, 255, 255, 0.93);
+      height: 100%;
+      bottom: -220px;
+      left: -250px;
+      transform: rotate(-38deg);
+    }
   }
 
 }
+
 .header-fixed {
   background-image: linear-gradient(to left, rgba(black, 0.6) 14%, rgba($lightText, 0) 33%);
 }
