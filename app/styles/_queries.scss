@@ -15,6 +15,11 @@
          }
      }
    }
+  #aboutUs {
+    .text {
+      padding: 200px 9%;
+    }
+  }
 }
 
 
@@ -30,9 +35,12 @@
 
   #aboutUs {
     .text {
-      padding: 0 5%;
+      padding: 100px 5%;
       h3 {
-        font-size: 28px;
+        font-size: 24px;
+        span {
+          font-size: 28px;
+        }
       }
     }
   }
