@@ -121,6 +121,12 @@
         top: -300px;
       }
     }
+    .edge{
+    	position: absolute;
+    	right: 0;
+		border-right: 0 solid transparent;
+		border-left: 60px solid transparent;
+	}
   }
   .teamSocial {
     padding-top: 30px;
@@ -145,11 +151,5 @@
       }
 
     }
-    .edge{
-    	position: absolute;
-    	right: 0;
-		border-right: 0 solid transparent;
-		border-left: 60px solid transparent;
-	}
   }
 }
