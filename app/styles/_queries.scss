@@ -107,3 +107,20 @@
 
 
 }
+
+@media (max-width: 400px) {
+  .dejan {
+    article {
+      &:hover .overlay {
+        right: 480px!important;
+      }
+    }
+  }
+  .mladja {
+    article {
+      &:hover .overlay {
+        right: 480px!important;
+      }
+    }
+  }
+}
