@@ -147,7 +147,7 @@
         color: $darkText;
         &:hover {
           transform: scale(1.2);
-          color: darken($brand-primary,30%) ;
+          color: $brand-primary;
         }
       }
 
