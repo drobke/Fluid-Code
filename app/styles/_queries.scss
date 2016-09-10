@@ -115,6 +115,9 @@
     .drobke {
       align-items: flex-end;
       article {
+        .overlay {
+          left: -240px;
+        }
         &:hover .overlay {
           left: 400px;
         }
