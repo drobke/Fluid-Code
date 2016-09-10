@@ -22,7 +22,7 @@
       font-weight: 400;
       font-size: 18px;
       margin: 10px 0;
-      padding: 0 20%;
+      padding: 0 10%;
       span {
         text-transform: uppercase;
         font-weight: 900;
@@ -59,7 +59,7 @@
       }
     }
 
-   }
+  }
   .copyright {
     position: relative;
     z-index: 14;
@@ -75,4 +75,21 @@
     }
   }
 
+}
+button {
+  background: none;
+  border: none;
+  a#moveUp {
+    left: calc(50% - 20px);
+    color: $brand-primary;
+    transition: all 0.4s ease;
+    opacity: 0.6;
+    z-index: 21;
+    .fa {
+      font-size: 50px;
+    }
+    &:hover {
+      opacity: 0.9;
+    }
+  }
 }
