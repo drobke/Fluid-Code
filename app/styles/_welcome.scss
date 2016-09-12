@@ -77,7 +77,6 @@
   }
 
 }
-
 #moveDown {
   position: absolute;
   bottom: 30px;
@@ -87,7 +86,7 @@
   border: none;
   transition: all 0.4s ease;
   opacity: 0.6;
-  z-index: 200;
+  z-index: 21;
   .fa {
     font-size: 50px;
   }
