@@ -6,9 +6,8 @@
   bottom: 0;
   width: 100%;
   left: 0;
-  background-image: url("../images/background1.jpg");
-  background-attachment: fixed;
-  background-position: center center;
+  background: url("../images/background1.jpg") center center no-repeat;
+  background-position-x: fixed;
   background-size: cover;
   .overlay {
     position: absolute;
@@ -95,9 +94,6 @@
   }
 }
 
-.borderRight {
-  border-right: 4px solid $brand-primary;
-}
 
 #particles-js {
   position: relative;
