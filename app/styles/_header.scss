@@ -60,6 +60,7 @@ header {
       color: rgba($brand-primary, 1);
     }
     display: none;
+    cursor: pointer;
   }
   #mobileNav2 {
     background-color: transparent;
@@ -69,6 +70,7 @@ header {
     top: 20px;
     font-size: 20px;
     border: none;
+    cursor: pointer;
     transition: all 0.4s ease;
     &:hover {
       color: rgba($brand-primary, 1);

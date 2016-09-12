@@ -173,13 +173,14 @@ $(document).ready(function () {
 
     });
 
-    $('span.glyphicon-align-justify').click(function () {
+    
+    $('#openMenu').click(function () {
         event.preventDefault();
         $('nav.mobile').show(300);
          $('span.glyphicon-align-justify').hide(300);
     });
 
-    $('span.glyphicon-remove').click(function () {
+    $('#closeMenu').click(function () {
         event.preventDefault();
         $('nav.mobile').hide(300);
         $('span.glyphicon-align-justify').show(300);

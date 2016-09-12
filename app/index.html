@@ -75,14 +75,15 @@
             <li><a href="#contact">contact</a></li>
         </ul>
     </nav>
-    <button type="button" id="mobileNav">
-        <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
-    </button>
+
+    <aside id="mobileNav">
+        <span  id="openMenu" class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+    </aside>
 
     <nav class="mobile">
-        <button type="button" id="mobileNav2">
-            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-        </button>
+        <aside id="mobileNav2">
+            <span id="closeMenu" class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </aside>
 
         <ul>
             <li><a href="#aboutUs">about us</a></li>
@@ -103,10 +104,13 @@
         </div>
         <div class="rectangle"></div>
     </div>
-    <button type="button"><a id="moveDown" href="#aboutUs"><span class="fa fa-angle-down"
-                                                                 aria-hidden="true"></span></a>
-    </button>
+    <aside>
+        <a id="moveDown" href="#aboutUs">
+            <span class="fa fa-angle-down" aria-hidden="true"></span>
+        </a>
+    </aside>
 </section>
+
 
 <section id="aboutUs">
     <div class="overlay"></div>
@@ -296,9 +300,11 @@
             </ul>
         </div>
     </div>
-    <button type="button"><a id="moveUp" href="#welcome"><span class="fa fa-angle-up"
-                                                               aria-hidden="true"></span></a>
-    </button>
+    <aside>
+        <a id="moveUp" href="#welcome">
+            <span class="fa fa-angle-up" aria-hidden="true"></span>
+        </a>
+    </aside>
     <div class="copyright">
         <hr>
         <p>All rights reserved©</p>
