@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="9edfaef7-f143-483e-bfea-03b44819cf50" name="Default" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_aboutUs.scss" afterPath="$PROJECT_DIR$/app/styles/_aboutUs.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_queries.scss" afterPath="$PROJECT_DIR$/app/styles/_queries.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_whatWeDo.scss" afterPath="$PROJECT_DIR$/app/styles/_whatWeDo.scss" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_header.scss" afterPath="$PROJECT_DIR$/app/styles/_header.scss" />
+>>>>>>> parent of 00e482d... no message
 =======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_header.scss" afterPath="$PROJECT_DIR$/app/styles/_header.scss" />
 >>>>>>> parent of 00e482d... no message
@@ -34,8 +38,13 @@
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="-34">
               <caret line="255" column="3" selection-start-line="255" selection-start-column="3" selection-end-line="255" selection-end-column="3" />
+=======
+            <state relative-caret-position="153">
+              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+>>>>>>> parent of 00e482d... no message
 =======
             <state relative-caret-position="153">
               <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
@@ -50,6 +59,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="_aboutUs.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/_aboutUs.scss">
@@ -120,6 +130,16 @@
                 <element signature="e#94#1065#0" expanded="false" />
                 <element signature="e#1740#2778#0" expanded="false" />
 >>>>>>> parent of 00e482d... no message
+=======
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/styles/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+              <folding>
+                <element signature="e#94#1065#0" expanded="false" />
+                <element signature="e#1740#2778#0" expanded="false" />
+>>>>>>> parent of 00e482d... no message
               </folding>
             </state>
           </provider>
@@ -148,7 +168,10 @@
         <option value="$PROJECT_DIR$/app/styles/_colors.scss" />
         <option value="$PROJECT_DIR$/app/styles/_welcome.scss" />
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/styles/_header.scss" />
+=======
+>>>>>>> parent of 00e482d... no message
 =======
 >>>>>>> parent of 00e482d... no message
         <option value="$PROJECT_DIR$/app/styles/_whoWeAre.scss" />
@@ -159,6 +182,10 @@
         <option value="$PROJECT_DIR$/app/styles/_aboutUs.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/app/styles/_header.scss" />
+>>>>>>> parent of 00e482d... no message
 =======
         <option value="$PROJECT_DIR$/app/styles/_header.scss" />
 >>>>>>> parent of 00e482d... no message
@@ -352,7 +379,11 @@
       <workItem from="1473167290862" duration="27459000" />
       <workItem from="1473266081024" duration="57411000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1473528489734" duration="6185000" />
+=======
+      <workItem from="1473528489734" duration="7701000" />
+>>>>>>> parent of 00e482d... no message
 =======
       <workItem from="1473528489734" duration="7701000" />
 >>>>>>> parent of 00e482d... no message
@@ -361,7 +392,11 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="91055000" />
+=======
+    <option name="totallyTimeSpent" value="92571000" />
+>>>>>>> parent of 00e482d... no message
 =======
     <option name="totallyTimeSpent" value="92571000" />
 >>>>>>> parent of 00e482d... no message
@@ -672,7 +707,10 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 00e482d... no message
     <entry file="file://$PROJECT_DIR$/app/styles/_welcome.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -719,6 +757,7 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/styles/_aboutUs.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -737,6 +776,8 @@
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
 =======
+=======
+>>>>>>> parent of 00e482d... no message
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -757,6 +798,9 @@
           <folding>
             <element signature="e#94#1065#0" expanded="false" />
             <element signature="e#1740#2778#0" expanded="false" />
+<<<<<<< HEAD
+>>>>>>> parent of 00e482d... no message
+=======
 >>>>>>> parent of 00e482d... no message
           </folding>
         </state>
