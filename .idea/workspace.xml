@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9edfaef7-f143-483e-bfea-03b44819cf50" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_header.scss" afterPath="$PROJECT_DIR$/app/styles/_header.scss" />
     </list>
     <ignored path="fluidcode.iws" />
@@ -24,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -34,6 +33,19 @@
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/styles/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+              <folding>
+                <element signature="e#94#1065#0" expanded="false" />
+                <element signature="e#1740#2778#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -258,12 +270,12 @@
       <updated>1473167281811</updated>
       <workItem from="1473167290862" duration="27459000" />
       <workItem from="1473266081024" duration="57411000" />
-      <workItem from="1473528489734" duration="7219000" />
+      <workItem from="1473528489734" duration="7701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92089000" />
+    <option name="totallyTimeSpent" value="92571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="7" />
@@ -397,7 +409,8 @@
         <state relative-caret-position="374">
           <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding>
-            <element signature="e#1704#2742#0" expanded="false" />
+            <element signature="e#94#1065#0" expanded="false" />
+            <element signature="e#1740#2778#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -548,16 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
-          <folding>
-            <element signature="e#1704#2742#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/_welcome.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -611,6 +614,17 @@
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+          <folding>
+            <element signature="e#94#1065#0" expanded="false" />
+            <element signature="e#1740#2778#0" expanded="false" />
           </folding>
         </state>
       </provider>
