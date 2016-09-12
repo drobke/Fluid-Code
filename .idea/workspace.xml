@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9edfaef7-f143-483e-bfea-03b44819cf50" name="Default" comment="">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+>>>>>>> 18860025a71b098740bb049deb96be8f0b90d436
+=======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/dejan.jpg" afterPath="$PROJECT_DIR$/app/images/dejan.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> parent of 1886002... no message
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/main.js" afterPath="$PROJECT_DIR$/app/scripts/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_footer.scss" afterPath="$PROJECT_DIR$/app/styles/_footer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_welcome.scss" afterPath="$PROJECT_DIR$/app/styles/_welcome.scss" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_header.scss" afterPath="$PROJECT_DIR$/app/styles/_header.scss" />
+>>>>>>> parent of 00e482d... no message
     </list>
     <ignored path="fluidcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,9 +39,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <state relative-caret-position="656">
+              <caret line="323" column="0" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
+              <folding>
+                <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1473680844186" expanded="false" signature="4227:4667" ph="..." />
+                <marker date="1473680844186" expanded="false" signature="4691:4926" ph="..." />
+                <marker date="1473680844186" expanded="false" signature="4951:6262" ph="..." />
+                <marker date="1473680844186" expanded="false" signature="11998:13109" ph="..." />
+=======
+            <state relative-caret-position="311">
+              <caret line="332" column="0" selection-start-line="332" selection-start-column="0" selection-end-line="343" selection-end-column="92" />
+              <folding>
+                <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1473676532113" expanded="false" signature="4239:4679" ph="..." />
+                <marker date="1473676532113" expanded="false" signature="4703:4938" ph="..." />
+                <marker date="1473676532113" expanded="false" signature="4963:6274" ph="..." />
+                <marker date="1473676532113" expanded="false" signature="12010:13121" ph="..." />
+>>>>>>> 18860025a71b098740bb049deb96be8f0b90d436
+=======
             <state relative-caret-position="3167">
               <caret line="331" column="36" selection-start-line="331" selection-start-column="36" selection-end-line="331" selection-end-column="36" />
               <folding>
@@ -39,27 +73,73 @@
                 <marker date="1473674833883" expanded="false" signature="4703:4938" ph="..." />
                 <marker date="1473674833883" expanded="false" signature="4963:6274" ph="..." />
                 <marker date="1473674833883" expanded="false" signature="12010:13121" ph="..." />
+>>>>>>> parent of 1886002... no message
+=======
+            <state relative-caret-position="153">
+              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+              <folding>
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+>>>>>>> parent of 00e482d... no message
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/styles/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="126" column="37" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
+<<<<<<< HEAD
+            <state relative-caret-position="-105">
+              <caret line="117" column="39" selection-start-line="117" selection-start-column="39" selection-end-line="117" selection-end-column="39" />
               <folding>
                 <element signature="e#128#2187#0" expanded="false" />
-                <element signature="e#2263#2450#0" expanded="false" />
                 <element signature="e#2716#2902#0" expanded="false" />
                 <element signature="e#2939#3211#0" expanded="false" />
                 <element signature="e#3254#3737#0" expanded="false" />
+=======
+            <state relative-caret-position="238">
+              <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+              <folding>
+                <element signature="e#94#1065#0" expanded="false" />
+                <element signature="e#1740#2778#0" expanded="false" />
+>>>>>>> parent of 00e482d... no message
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="81" column="7" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+              <folding>
+                <element signature="e#94#1065#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
+=======
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
+>>>>>>> 18860025a71b098740bb049deb96be8f0b90d436
+        <entry file="file://$PROJECT_DIR$/app/styles/_footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="535">
+              <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+=======
+>>>>>>> parent of 1886002... no message
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -81,15 +161,33 @@
         <option value="$PROJECT_DIR$/app/assets/particlesPlugin.js" />
         <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/styles/_colors.scss" />
+        <option value="$PROJECT_DIR$/app/styles/_welcome.scss" />
         <option value="$PROJECT_DIR$/app/styles/_whoWeAre.scss" />
+        <option value="$PROJECT_DIR$/app/styles/_footer.scss" />
+        <option value="$PROJECT_DIR$/app/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/styles/_queries.scss" />
         <option value="$PROJECT_DIR$/app/styles/_whatWeDo.scss" />
         <option value="$PROJECT_DIR$/app/styles/_aboutUs.scss" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/app/styles/_header.scss" />
+        <option value="$PROJECT_DIR$/app/styles/_footer.scss" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+=======
+>>>>>>> 18860025a71b098740bb049deb96be8f0b90d436
+        <option value="$PROJECT_DIR$/app/scripts/main.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+=======
+>>>>>>> parent of 1886002... no message
         <option value="$PROJECT_DIR$/app/styles/_header.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/styles/_welcome.scss" />
-        <option value="$PROJECT_DIR$/app/styles/_footer.scss" />
+=======
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/styles/_header.scss" />
+>>>>>>> parent of 00e482d... no message
       </list>
     </option>
   </component>
@@ -194,24 +292,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fluidcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fluidcode" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -297,15 +377,39 @@
       <updated>1473167281811</updated>
       <workItem from="1473167290862" duration="27459000" />
       <workItem from="1473266081024" duration="57411000" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <workItem from="1473528489734" duration="14473000" />
+=======
+      <workItem from="1473528489734" duration="10741000" />
+>>>>>>> 18860025a71b098740bb049deb96be8f0b90d436
+=======
       <workItem from="1473528489734" duration="9026000" />
+>>>>>>> parent of 1886002... no message
+=======
+      <workItem from="1473528489734" duration="7701000" />
+>>>>>>> parent of 00e482d... no message
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="99343000" />
+=======
+    <option name="totallyTimeSpent" value="95611000" />
+>>>>>>> 18860025a71b098740bb049deb96be8f0b90d436
+=======
     <option name="totallyTimeSpent" value="93896000" />
+>>>>>>> parent of 1886002... no message
+=======
+    <option name="totallyTimeSpent" value="92571000" />
+>>>>>>> parent of 00e482d... no message
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -351,11 +455,33 @@
         <state relative-caret-position="5151">
           <caret line="303" column="27" selection-start-line="303" selection-start-column="27" selection-end-line="303" selection-end-column="27" />
           <folding>
+<<<<<<< HEAD
             <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1473680844186" expanded="false" signature="4227:4667" ph="..." />
+            <marker date="1473680844186" expanded="false" signature="4691:4926" ph="..." />
+            <marker date="1473680844186" expanded="false" signature="4951:6262" ph="..." />
+            <marker date="1473680844186" expanded="false" signature="11998:13109" ph="..." />
+=======
+            <marker date="1473676532113" expanded="false" signature="4239:4679" ph="..." />
+            <marker date="1473676532113" expanded="false" signature="4703:4938" ph="..." />
+            <marker date="1473676532113" expanded="false" signature="4963:6274" ph="..." />
+            <marker date="1473676532113" expanded="false" signature="12010:13121" ph="..." />
+>>>>>>> 18860025a71b098740bb049deb96be8f0b90d436
+=======
             <marker date="1473674833883" expanded="false" signature="4239:4679" ph="..." />
             <marker date="1473674833883" expanded="false" signature="4703:4938" ph="..." />
             <marker date="1473674833883" expanded="false" signature="4963:6274" ph="..." />
             <marker date="1473674833883" expanded="false" signature="12010:13121" ph="..." />
+>>>>>>> parent of 1886002... no message
+=======
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+>>>>>>> parent of 00e482d... no message
           </folding>
         </state>
       </provider>
@@ -389,11 +515,33 @@
         <state relative-caret-position="969">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1473680844186" expanded="false" signature="4227:4667" ph="..." />
+            <marker date="1473680844186" expanded="false" signature="4691:4926" ph="..." />
+            <marker date="1473680844186" expanded="false" signature="4951:6262" ph="..." />
+            <marker date="1473680844186" expanded="false" signature="11998:13109" ph="..." />
+=======
+            <marker date="1473676532113" expanded="false" signature="4239:4679" ph="..." />
+            <marker date="1473676532113" expanded="false" signature="4703:4938" ph="..." />
+            <marker date="1473676532113" expanded="false" signature="4963:6274" ph="..." />
+            <marker date="1473676532113" expanded="false" signature="12010:13121" ph="..." />
+>>>>>>> 18860025a71b098740bb049deb96be8f0b90d436
+=======
             <marker date="1473674833883" expanded="false" signature="4239:4679" ph="..." />
             <marker date="1473674833883" expanded="false" signature="4703:4938" ph="..." />
             <marker date="1473674833883" expanded="false" signature="4963:6274" ph="..." />
             <marker date="1473674833883" expanded="false" signature="12010:13121" ph="..." />
+>>>>>>> parent of 1886002... no message
+=======
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+>>>>>>> parent of 00e482d... no message
           </folding>
         </state>
       </provider>
@@ -412,7 +560,8 @@
           <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
           <folding>
             <element signature="e#10#1684#0" expanded="false" />
-            <element signature="e#1696#1952#0" expanded="false" />
+            <element signature="e#1695#1950#0" expanded="false" />
+            <element signature="e#1965#2010#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -524,6 +673,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/particlesPlugin.js" />
     <entry file="file://$PROJECT_DIR$/app/assets/particles.json" />
+    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="134" column="14" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
+          <folding>
+            <element signature="e#128#2187#0" expanded="false" />
+            <element signature="e#2263#2450#0" expanded="false" />
+            <element signature="e#3979#4107#0" expanded="false" />
+            <element signature="e#4151#4278#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -569,6 +738,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/_welcome.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+          <folding>
+            <element signature="e#10#1684#0" expanded="false" />
+            <element signature="e#1695#1950#0" expanded="false" />
+            <element signature="e#1965#2010#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/_whatWeDo.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -601,6 +782,32 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/styles/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/_welcome.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="81" column="7" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+          <folding>
+            <element signature="e#94#1065#0" expanded="false" />
+=======
     <entry file="file://$PROJECT_DIR$/app/styles/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -608,17 +815,22 @@
           <folding>
             <element signature="e#94#1065#0" expanded="false" />
             <element signature="e#1740#2778#0" expanded="false" />
+>>>>>>> parent of 1886002... no message
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+>>>>>>> 18860025a71b098740bb049deb96be8f0b90d436
+=======
+>>>>>>> parent of 1886002... no message
     <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="126" column="37" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
+        <state relative-caret-position="-105">
+          <caret line="117" column="39" selection-start-line="117" selection-start-column="39" selection-end-line="117" selection-end-column="39" />
           <folding>
             <element signature="e#128#2187#0" expanded="false" />
-            <element signature="e#2263#2450#0" expanded="false" />
             <element signature="e#2716#2902#0" expanded="false" />
             <element signature="e#2939#3211#0" expanded="false" />
             <element signature="e#3254#3737#0" expanded="false" />
@@ -626,7 +838,23 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+<<<<<<< HEAD
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="323" column="0" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
+          <folding>
+            <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1473680844186" expanded="false" signature="4227:4667" ph="..." />
+            <marker date="1473680844186" expanded="false" signature="4691:4926" ph="..." />
+            <marker date="1473680844186" expanded="false" signature="4951:6262" ph="..." />
+            <marker date="1473680844186" expanded="false" signature="11998:13109" ph="..." />
+=======
+=======
     <entry file="file://$PROJECT_DIR$/app/styles/_footer.scss">
+>>>>>>> parent of 1886002... no message
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
           <caret line="86" column="17" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
@@ -635,25 +863,41 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/_welcome.scss">
+=======
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+>>>>>>> parent of 00e482d... no message
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="89" column="15" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
+        <state relative-caret-position="153">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
           <folding>
-            <element signature="e#10#1684#0" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/app/styles/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3167">
-          <caret line="331" column="36" selection-start-line="331" selection-start-column="36" selection-end-line="331" selection-end-column="36" />
+        <state relative-caret-position="238">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
           <folding>
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <element signature="e#94#1065#0" expanded="false" />
+>>>>>>> 18860025a71b098740bb049deb96be8f0b90d436
+=======
             <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <marker date="1473674833883" expanded="false" signature="4239:4679" ph="..." />
             <marker date="1473674833883" expanded="false" signature="4703:4938" ph="..." />
             <marker date="1473674833883" expanded="false" signature="4963:6274" ph="..." />
             <marker date="1473674833883" expanded="false" signature="12010:13121" ph="..." />
+>>>>>>> parent of 1886002... no message
+=======
+            <element signature="e#94#1065#0" expanded="false" />
+            <element signature="e#1740#2778#0" expanded="false" />
+>>>>>>> parent of 00e482d... no message
           </folding>
         </state>
       </provider>

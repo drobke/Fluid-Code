@@ -132,7 +132,6 @@ $(document).ready(function () {
         event.preventDefault();
         return false;
     });
-
     $('#moveUp').click(function () {
         $('html, body').animate({
             scrollTop: $($.attr(this, 'href')).offset().top - 0
@@ -152,6 +151,8 @@ $(document).ready(function () {
             $('nav').removeClass('header-fixed', 600);
         }
     });
+
+
 
     $(window).on('scroll', function () {
         var logo = $('.logo');
