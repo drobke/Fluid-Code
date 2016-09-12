@@ -4,9 +4,8 @@
   left: 0;
   padding: 5% 0;
   z-index: 30;
-  background-image: url("../images/background1.jpg");
-  background-attachment: fixed;
-  background-position: center center;
+  background: url("../images/background1.jpg") center center no-repeat;
+  background-position-x: fixed;
   background-size: cover;
   overflow: hidden;
   .overlay {
@@ -18,7 +17,7 @@
       position: relative;
       bottom: 0px;
       left: 0px;
-      background-color: rgba(255, 255, 255, 0.78);
+      background-color: rgba(255, 255, 255, 0.48);
       transform: rotate(47deg);
       width: 2000px;
       height: 1000px;
